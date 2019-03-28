@@ -124,10 +124,11 @@ h1 {
     line-height: 1.5em;
     padding: 0px 30px;
     height: 100%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
+#content p {
+  padding-top: 30px;
+}
 
 #content p span {
     font-family: 'Lora', sans-serif;
@@ -135,13 +136,15 @@ h1 {
 }
 
 #about {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
   margin: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-aside {
+.one-third {
   width: 30%;
   display: flex;
 }
