@@ -149,6 +149,12 @@ h1 {
   display: flex;
 }
 
+#middle {
+  border-right: 1px solid Gray;
+  border-left: 1px solid Gray;
+  padding: 0px 25px;
+}
+
 
 /* ==========================================================================
    Helper classes
